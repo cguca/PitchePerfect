@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		4A703DDB25A5F37B004A2CC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A703DDA25A5F37B004A2CC8 /* AppDelegate.swift */; };
 		4A703DDD25A5F37B004A2CC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A703DDC25A5F37B004A2CC8 /* SceneDelegate.swift */; };
-		4A703DDF25A5F37B004A2CC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A703DDE25A5F37B004A2CC8 /* ViewController.swift */; };
+		4A703DDF25A5F37B004A2CC8 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A703DDE25A5F37B004A2CC8 /* RecordSoundsViewController.swift */; };
 		4A703DE225A5F37B004A2CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A703DE025A5F37B004A2CC8 /* Main.storyboard */; };
 		4A703DE425A5F37C004A2CC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A703DE325A5F37C004A2CC8 /* Assets.xcassets */; };
 		4A703DE725A5F37C004A2CC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A703DE525A5F37C004A2CC8 /* LaunchScreen.storyboard */; };
+		4A88039425A7864C00FF4C66 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A88039325A7864C00FF4C66 /* PlaySoundsViewController.swift */; };
+		4A88039B25A7AA7C00FF4C66 /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A88039A25A7AA7C00FF4C66 /* playsoundsviewcontroller-audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A703DD725A5F37B004A2CC8 /* PitchePerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchePerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A703DDA25A5F37B004A2CC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A703DDC25A5F37B004A2CC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4A703DDE25A5F37B004A2CC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A703DDE25A5F37B004A2CC8 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		4A703DE125A5F37B004A2CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A703DE325A5F37C004A2CC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A703DE625A5F37C004A2CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A703DE825A5F37C004A2CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A88039325A7864C00FF4C66 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		4A88039A25A7AA7C00FF4C66 /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "playsoundsviewcontroller-audio.swift"; path = "../../../../Downloads/playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				4A703DDA25A5F37B004A2CC8 /* AppDelegate.swift */,
 				4A703DDC25A5F37B004A2CC8 /* SceneDelegate.swift */,
-				4A703DDE25A5F37B004A2CC8 /* ViewController.swift */,
+				4A703DDE25A5F37B004A2CC8 /* RecordSoundsViewController.swift */,
 				4A703DE025A5F37B004A2CC8 /* Main.storyboard */,
 				4A703DE325A5F37C004A2CC8 /* Assets.xcassets */,
 				4A703DE525A5F37C004A2CC8 /* LaunchScreen.storyboard */,
 				4A703DE825A5F37C004A2CC8 /* Info.plist */,
+				4A88039325A7864C00FF4C66 /* PlaySoundsViewController.swift */,
+				4A88039A25A7AA7C00FF4C66 /* playsoundsviewcontroller-audio.swift */,
 			);
 			path = PitchePerfect;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A703DDF25A5F37B004A2CC8 /* ViewController.swift in Sources */,
+				4A703DDF25A5F37B004A2CC8 /* RecordSoundsViewController.swift in Sources */,
+				4A88039B25A7AA7C00FF4C66 /* playsoundsviewcontroller-audio.swift in Sources */,
 				4A703DDB25A5F37B004A2CC8 /* AppDelegate.swift in Sources */,
+				4A88039425A7864C00FF4C66 /* PlaySoundsViewController.swift in Sources */,
 				4A703DDD25A5F37B004A2CC8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +294,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PitchePerfect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -294,6 +303,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cary.PitchePerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,7 +314,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PitchePerfect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,6 +323,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cary.PitchePerfect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
